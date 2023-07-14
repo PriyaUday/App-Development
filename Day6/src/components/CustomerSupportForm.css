@@ -1,0 +1,76 @@
+.customer-support-form {
+    max-width: 700px;
+    justify-content: center;
+  }
+  .cust{
+    box-shadow: 0 8px 32px 300 rgba(31,38,135,0.37);
+    background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(6.5px);
+  /* border-radius: 10px; */
+  height: 70vh;
+  width: 120vh;
+  
+
+  margin-top: 90px;
+  padding-top: 10;
+  padding-bottom: 30PX;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+  
+  }
+  .customer-support-form h2 {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .customer-support-form label {
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .customer-support-form input[type='text'],
+  .customer-support-form input[type='email'],
+  .customer-support-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    justify-content: center;
+  }
+  
+  /* .customer-support-form textarea {
+    height: 120px;
+  } */
+  
+  .customer-support-form button[type='submit'] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0a0a0a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .customer-support-form button[type='submit']:hover {
+    background-color: #1f241f;
+  }
+  .background-container {
+    box-shadow: 0 8px 32px 300 rgba(31, 38, 135, 0.37);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    height: 0vh;
+    width: 00vh;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+  }
+  

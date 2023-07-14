@@ -1,0 +1,17 @@
+.container {
+    box-shadow: 0 8px 32px 300 rgba(31, 38, 135, 0.37);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    height: 40vh;
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+  
+  
