@@ -1,0 +1,88 @@
+.customer-support-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 1px solid #f3eeee;
+    border-radius: 4px;
+  }
+  .customer-support-form{
+    justify-content: center;
+  text-align: center;
+  height: 90vh;
+  width: 60vh;
+  /* min-height: 110vh;
+  min-width: 200vh; */
+   /* background-size: auto; */
+  /* overflow-x: hidden;  */
+  /* background: gainsboro; */
+  /* background-image: url("bg1.jpeg"); */
+ box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  /* color: #ffffff; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.4cm; */
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 50px;
+  }
+  
+  .customer-support-form h2 {
+    text-align: center;
+  }
+  
+  .customer-support-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .customer-support-form input[type='text'],
+  .customer-support-form input[type='email'],
+  .customer-support-form textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .customer-support-form textarea {
+    height: 120px;
+  }
+  
+  .customer-support-form button[type='submit'] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+  }
+  
+  .customer-support-form button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  .customer-support-form {
+    text-align: left;
+  }
+  .cost-estimation-container {
+    box-shadow: 0 8px 32px 300 rgba(31, 38, 135, 0.37);
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    height: 35vh;
+    width: 80vh;
+    justify-content: center;
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+  

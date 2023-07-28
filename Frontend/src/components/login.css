@@ -1,0 +1,261 @@
+/* .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6.5px);
+    box-shadow: 0 8px 32px 300 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit {
+    margin-top: 20px;
+  }
+  
+  .submit button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .register-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .register-link a {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+   */
+   .form{
+    padding:120px;
+    width:900px;
+    background-size: cover;
+    font-family:'Segoe UI';
+  }
+  .login1{
+    padding-right: 490px;
+    background-color: rgba(255, 240, 245, 0.307);
+    background-position:fixed;
+    margin: 0;
+  }
+  
+  
+  .login-form {
+      width: 350px;
+      height:450px;
+      margin-left:400px;
+      padding: 50px; 
+      background-color:rgba(192,192,192);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .login-form div {
+      margin-bottom: 10px;
+    }
+    
+    .login-form input[type='text'],
+    .login-form input[type='email'],
+    .login-form input[type='password'] {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px ;
+      padding: 5px;
+      font-size: 16px;
+    }
+    
+    .login-form button[type='submit'] {
+      width: 40%;
+      margin-left: 80px;
+      margin-top: 40px;
+      align-items: center;
+      padding: 7px;
+      background-color:black;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .login-form button[type='submit']:hover {
+      background-color:rgb(71, 71, 71)
+    }
+    .textcenter{
+      text-align: center;
+    }
+    .form{
+      padding:120px;
+      width:900px;
+      background-size: cover;
+      font-family:'Segoe UI';
+    }
+    .login1{
+      padding-right: 490px;
+      background-color: rgba(255, 240, 245, 0.307);
+      background-position:fixed;
+      margin: 0;
+    }
+    
+    
+    .login-form {
+        width: 350px;
+        height:450px;
+        margin-left:400px;
+        padding: 50px; 
+        background-color:rgba(192,192,192);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      
+      .login-form div {
+        margin-bottom: 10px;
+      }
+      
+      .login-form input[type='text'],
+      .login-form input[type='email'],
+      .login-form input[type='password'] {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px ;
+        padding: 5px;
+        font-size: 16px;
+      }
+      
+      .login-form button[type='submit'] {
+        width: 40%;
+        margin-left: 80px;
+        margin-top: 40px;
+        align-items: center;
+        padding: 7px;
+        background-color:black;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .login-form button[type='submit']:hover {
+        background-color:rgb(71, 71, 71)
+      }
+      .textcenter{
+        text-align: center;
+      }
+
+      /* Styling for the background container */
+.All {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backgroundColor: 'rgba(245, 245, 245, 0.8)'
+}
+
+/* Styling for the login form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backgroundColor: 'rgba(245, 245, 245, 0.8)';
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the text fields */
+input[type='text'],
+
+input[type='password'] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Styling for the error messages */
+div[style*='color: red'] {
+  color: red;
+}
+
+/* Styling for the "Login" button */
+button[type='submit'] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling for the social media buttons */
+button {
+  padding: 8px 16px;
+  border: 1px solid black;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the "Sign Up" button */
+div.btn-log {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Styling for the social media section */
+div.cns {
+  text-align: center;
+}
+
+/* Styling for the social media buttons container */
+div.goog,
+div.fb {
+  display: flex;
+  justify-content: center;
+}

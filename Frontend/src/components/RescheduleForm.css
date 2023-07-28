@@ -1,0 +1,58 @@
+label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='date'],
+  input[type='time'],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  
+  .Reschedule_btn{
+    background-color: green;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 5px;
+    height: 50px;
+  }
+  .Reschedule_btns{
+    background-color: red;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 50px;
+  
+  }
+  
+  .form-container{
+    width: 100%;
+    /* background-color: red; */
+    height: auto;
+  
+  }
+  .name{
+    font-family: cursive;
+    height: 40px;
+    }
+    .background-container {
+      box-shadow: 0 8px 32px 300 rgba(31, 38, 135, 0.37);
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(6.5px);
+      border-radius: 10px;
+      height: 100vh;
+      width: 110vh;
+      justify-content: center;
+      margin-top: 90px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    

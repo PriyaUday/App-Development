@@ -1,0 +1,56 @@
+/* CustomerSupportForm.css */
+.background-container {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background with 50% opacity */
+  padding: 20px;
+}
+
+.customer-support-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the form */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.customer-support-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.customer-support-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-support-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.customer-support-form input,
+.customer-support-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.customer-support-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.customer-support-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.customer-support-form button:hover {
+  background-color: #0056b3;
+}
